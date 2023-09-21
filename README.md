@@ -1,17 +1,6 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
 # Desafio Módulo 2 - Back-end
-
-## Como entregar?
-
-- [ ] Faça o fork desse repositório para o seu GitHub
-- [ ] Clone o seu repositório em sua máquina
-- [ ] Desenvolva seu projeto, fazendo commits a cada alteração e push
-- [ ] Crie um PR (pull request)
-- [ ] Envie o link do pull request que você criou na plataforma da Cubos
-
-### ⚠️ Importante: Se o pull request não for criado e enviado na plataforma o feedback não será fornecido e constará como não entregue
-
 ## Descrição do desafio
 
 Você acabou de ser contratado pela melhor empresa de tecnologia do mundo: a **CUBOS**.
