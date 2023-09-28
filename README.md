@@ -1,7 +1,9 @@
 # Projeto API para um Banco Digital(hipotético)
 ## Descrição do Projeto
-Desenvolvi uma API para um Banco Digital(hipotético).   
+Desenvolvi uma API para um Banco Digital(hipotético).
 Esse é um projeto **inicial**, ou seja, no futuro outras funcionalidades serão implementadas.
+
+## Tecnologias utilizads neste projeto:
 
 Features:
 
