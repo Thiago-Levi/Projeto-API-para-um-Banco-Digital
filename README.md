@@ -7,6 +7,12 @@ Esse é um projeto **inicial**, ou seja, no futuro outras funcionalidades serão
 <img alt="logo da linguagem Javascript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"> <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Logo nodejs">
 <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" alt="Logo express">
 
+## Como utilizar, testar ou modificar?
+
+- [ ] Você pode baixar fazer o download deste repô para sua máquina ou ainda forkar ou clonar esse repositório para o seu GitHub
+- [ ] Dentro da pasta do projeto(em sua máquina) execute o comando "npm install" para instalar as dependências do projeto.  
+- [ ] abaixo estão informações para facilitar o entendimento do projeto.
+- [ ] Se sinta livre para contribuir, testar e evoluir esse projeto!
 
 Features:
 
