@@ -1,4 +1,4 @@
-## Descrição do desafio
+## Descrição do Projeto
 
 Desenvolvi uma API para um Banco Digital(hipotético) 
 Esse é um projeto **inicial**, ou seja, no futuro outras funcionalidades serão implementadas.
