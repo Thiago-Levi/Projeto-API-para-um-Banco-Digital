@@ -1,7 +1,7 @@
 # Projeto API para um Banco Digital(hipotético)
 ## Descrição do Projeto
 Desenvolvi uma API para um Banco Digital(hipotético) utilizando Javascript. 
-Esse é um projeto **inicial**, ou seja, no futuro outras funcionalidades serão implementadas, contudo, foram implementadas rotas e recursos essenciais exigidos em projetos backend.
+Esse é um projeto **inicial**, ou seja, no futuro outras funcionalidades serão acrescentadas, contudo, foram implementadas rotas e recursos essenciais exigidos em um projeto básico backend.
 
 ## Tecnologias utilizads neste projeto:
 <img alt="logo da linguagem Javascript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"> <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Logo nodejs">
@@ -14,7 +14,7 @@ Esse é um projeto **inicial**, ou seja, no futuro outras funcionalidades serão
 - [ ] Abaixo estão informações para facilitar o entendimento do projeto.
 - [ ] Se sinta livre para contribuir, testar e evoluir esse projeto!
 
-Features:
+ Features:
 
 -   Criar conta bancária
 -   Listar contas bancárias
@@ -97,7 +97,7 @@ Abaixo, estão alguns os possíveis ***status code*** como resposta da API.
 
 #### `GET` `/contas?senha_banco=Cubos123Bank`
 
-Esse endpoint lista todas as contas bancárias existentes.
+- Esse endpoint lista todas as contas bancárias existentes.
 
     -   Verifica se a senha do banco foi informada (passado como query params na url)
     -   Valida se a senha do banco está correta
@@ -155,7 +155,7 @@ Esse endpoint lista todas as contas bancárias existentes.
 
 #### `POST` `/contas`
 
-Esse endpoint cria uma conta bancária, onde será gerado um número único para identificação da conta (número da conta).  
+- Esse endpoint cria uma conta bancária, onde será gerado um número único para identificação da conta (número da conta).  
    
     -   Cria uma nova conta cujo número é único
     -   CPF (deve ser um campo único).
@@ -208,7 +208,7 @@ Esse endpoint cria uma conta bancária, onde será gerado um número único para
 
 #### `PUT` `/contas/:numeroConta/usuario`
 
-Esse endpoint atualiza apenas os dados do usuário de uma conta bancária.
+- Esse endpoint atualiza apenas os dados do usuário de uma conta bancária.
 
     -   Verifica se foi passado todos os campos no body da requisição
     -   Verifica se o numero da conta passado como parametro na URL é válida
@@ -261,7 +261,7 @@ Esse endpoint atualiza apenas os dados do usuário de uma conta bancária.
 
 #### `DELETE` `/contas/:numeroConta`
 
-Esse endpoint exclui uma conta bancária existente.
+- Esse endpoint exclui uma conta bancária existente.
 
     -   Verifica se o numero da conta passado como parametro na URL é válido
     -   Permite excluir uma conta bancária apenas se o saldo for 0 (zero)
@@ -293,7 +293,7 @@ Esse endpoint exclui uma conta bancária existente.
 
 #### `POST` `/transacoes/depositar`
 
-Esse endpoint soma o valor do depósito ao saldo de uma conta válida e registra essa transação.
+- Esse endpoint soma o valor do depósito ao saldo de uma conta válida e registra essa transação.
 
     -   Verifica se o numero da conta e o valor do deposito foram informados no body
     -   Verifica se a conta bancária informada existe
@@ -346,7 +346,7 @@ Esse endpoint soma o valor do depósito ao saldo de uma conta válida e registra
 
 #### `POST` `/transacoes/sacar`
 
-Esse endpoint realiza o saque de um valor em uma determinada conta bancária e registrar essa transação.
+- Esse endpoint realiza o saque de um valor em uma determinada conta bancária e registrar essa transação.
 
     -   Verifica se o numero da conta, o valor do saque e a senha foram informados no body
     -   Verifica se a conta bancária informada existe
@@ -400,7 +400,7 @@ Esse endpoint realiza o saque de um valor em uma determinada conta bancária e r
 
 #### `POST` `/transacoes/transferir`
 
-Esse endpoint permite a transferência de recursos (dinheiro) de uma conta bancária para outra e registra essa transação.
+- Esse endpoint permite a transferência de recursos (dinheiro) de uma conta bancária para outra e registra essa transação.
 
     -   Verifica se o número da conta de origem, de destino, senha da conta de origem e valor da transferência foram informados no body
     -   Verifica se a conta bancária de origem informada existe
@@ -460,7 +460,7 @@ Esse endpoint permite a transferência de recursos (dinheiro) de uma conta banc�
 
 #### `GET` `/contas/saldo?numero_conta=123&senha=123`
 
-Esse endpoint retorna o saldo de uma conta bancária.
+- Esse endpoint retorna o saldo de uma conta bancária.
 
     -   Verifica se o numero da conta e a senha foram informadas (passado como query params na url)
     -   Verifica se a conta bancária informada existe
@@ -495,7 +495,7 @@ Esse endpoint retorna o saldo de uma conta bancária.
 
 #### `GET` `/contas/extrato?numero_conta=123&senha=123`
 
-Esse endpoint lista as transações realizadas de uma conta específica.
+- Esse endpoint lista as transações realizadas de uma conta específica.
 
     -   Verifica se o numero da conta e a senha foram informadas (passado como query params na url)
     -   Verifica se a conta bancária informada existe
