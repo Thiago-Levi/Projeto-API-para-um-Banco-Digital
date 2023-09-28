@@ -1,6 +1,6 @@
 ## Descrição do Projeto
 
-Desenvolvi uma API para um Banco Digital(hipotético) 
+Desenvolvi uma API para um Banco Digital(hipotético).   
 Esse é um projeto **inicial**, ou seja, no futuro outras funcionalidades serão implementadas.
 
 Features:
@@ -57,8 +57,8 @@ Os dados são persistidos em memória, no objeto existente dentro do arquivo `ba
 ```
 ## Requisitos:
 
--   A API deve segue o padrão REST
--   Seu código está organizado, delimitando as responsabilidades de cada arquivo adequadamente.
+-   A API segue o padrão REST
+-   O código está organizado, delimitando as responsabilidades de cada arquivo adequadamente.
     -   Um arquivo index.js
     -   Um arquivo de rotas
     -   Uma pasta com controladores
@@ -199,8 +199,6 @@ Esse endpoint cria uma conta bancária, onde será gerado um número único para
 
 Esse endpoint atualiza apenas os dados do usuário de uma conta bancária.
 
--   Você deverá, **OBRIGATORIAMENTE**:
-
     -   Verifica se foi passado todos os campos no body da requisição
     -   Verifica se o numero da conta passado como parametro na URL é válida
     -   Se o CPF for informado, verifica se já existe outro registro com o mesmo CPF
@@ -253,8 +251,6 @@ Esse endpoint atualiza apenas os dados do usuário de uma conta bancária.
 #### `DELETE` `/contas/:numeroConta`
 
 Esse endpoint exclui uma conta bancária existente.
-
--   Você deverá, **OBRIGATORIAMENTE**:
 
     -   Verifica se o numero da conta passado como parametro na URL é válido
     -   Permite excluir uma conta bancária apenas se o saldo for 0 (zero)
@@ -341,8 +337,6 @@ Esse endpoint soma o valor do depósito ao saldo de uma conta válida e registra
 
 Esse endpoint realiza o saque de um valor em uma determinada conta bancária e registrar essa transação.
 
--   Você deverá, **OBRIGATORIAMENTE**:
-
     -   Verifica se o numero da conta, o valor do saque e a senha foram informados no body
     -   Verifica se a conta bancária informada existe
     -   Verifica se a senha informada é uma senha válida para a conta informada
@@ -396,8 +390,6 @@ Esse endpoint realiza o saque de um valor em uma determinada conta bancária e r
 #### `POST` `/transacoes/transferir`
 
 Esse endpoint permite a transferência de recursos (dinheiro) de uma conta bancária para outra e registra essa transação.
-
--   Você deverá, **OBRIGATORIAMENTE**:
 
     -   Verifica se o número da conta de origem, de destino, senha da conta de origem e valor da transferência foram informados no body
     -   Verifica se a conta bancária de origem informada existe
@@ -459,8 +451,6 @@ Esse endpoint permite a transferência de recursos (dinheiro) de uma conta banc�
 
 Esse endpoint retorna o saldo de uma conta bancária.
 
--   Você deverá, **OBRIGATORIAMENTE**:
-
     -   Verifica se o numero da conta e a senha foram informadas (passado como query params na url)
     -   Verifica se a conta bancária informada existe
     -   Verifica se a senha informada é uma senha válida
@@ -495,8 +485,6 @@ Esse endpoint retorna o saldo de uma conta bancária.
 #### `GET` `/contas/extrato?numero_conta=123&senha=123`
 
 Esse endpoint lista as transações realizadas de uma conta específica.
-
--   Você deverá, **OBRIGATORIAMENTE**:
 
     -   Verifica se o numero da conta e a senha foram informadas (passado como query params na url)
     -   Verifica se a conta bancária informada existe
