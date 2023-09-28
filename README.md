@@ -11,7 +11,7 @@ Esse é um projeto **inicial**, ou seja, no futuro outras funcionalidades serão
 
 - [ ] Você pode baixar fazer o download deste repô para sua máquina ou ainda forkar ou clonar esse repositório para o seu GitHub
 - [ ] Dentro da pasta do projeto(em sua máquina) execute o comando "npm install" para instalar as dependências do projeto.  
-- [ ] abaixo estão informações para facilitar o entendimento do projeto.
+- [ ] Abaixo estão informações para facilitar o entendimento do projeto.
 - [ ] Se sinta livre para contribuir, testar e evoluir esse projeto!
 
 Features:
