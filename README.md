@@ -155,8 +155,8 @@ Esse endpoint lista todas as contas bancárias existentes.
 
 #### `POST` `/contas`
 
-Esse endpoint cria uma conta bancária, onde será gerado um número único para identificação da conta (número da conta).
-
+Esse endpoint cria uma conta bancária, onde será gerado um número único para identificação da conta (número da conta).  
+   
     -   Cria uma nova conta cujo número é único
     -   CPF (deve ser um campo único).
     -   E-mail (deve ser um campo único).
