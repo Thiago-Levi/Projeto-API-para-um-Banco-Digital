@@ -1,9 +1,12 @@
 # Projeto API para um Banco Digital(hipotético)
 ## Descrição do Projeto
-Desenvolvi uma API para um Banco Digital(hipotético).
+Desenvolvi uma API para um Banco Digital(hipotético) utilizando Javascript. 
 Esse é um projeto **inicial**, ou seja, no futuro outras funcionalidades serão implementadas.
 
 ## Tecnologias utilizads neste projeto:
+<img alt="logo da linguagem Javascript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"> <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Logo nodejs">
+<img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" alt="Logo express">
+
 
 Features:
 
