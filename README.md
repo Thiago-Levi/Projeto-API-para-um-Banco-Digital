@@ -351,8 +351,8 @@ Esse endpoint realiza o saque de um valor em uma determinada conta bancária e r
 
 -   **Resposta**
 
-    Em caso de **sucesso**, não deveremos enviar conteúdo no corpo (body) da resposta.  
-    Em caso de **falha na validação**, a resposta deverá possuir ***status code*** apropriado, e em seu corpo (body) deverá possuir um objeto com uma propriedade **mensagem** que deverá possuir como valor um texto explicando o motivo da falha.
+    Em caso de **sucesso**, não é enviado conteúdo no corpo (body) da resposta.  
+    Em caso de **falha na validação**, a resposta possui ***status code*** apropriado, e em seu corpo (body) possui um objeto com uma propriedade **mensagem** que possui como valor um texto explicando o motivo da falha.
 
 #### Exemplo de Requisição
 ```javascript
