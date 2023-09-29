@@ -1,6 +1,6 @@
-# Projeto API para um Banco Digital(hipotético)
+# 💰🏦 Projeto API para um Banco Digital(hipotético)
 ## Descrição do Projeto
-Desenvolvi uma API para um Banco Digital(hipotético) utilizando Javascript. 
+Desenvolvi uma API para um Banco Digital(hipotético) utilizando Javascript e Nodejs. 
 Esse é um projeto **inicial**, ou seja, no futuro outras funcionalidades serão acrescentadas, contudo, foram implementadas rotas e recursos essenciais exigidos em um projeto básico backend.
 
 ## Tecnologias utilizads neste projeto:
@@ -66,14 +66,10 @@ Os dados são persistidos em memória, no objeto existente dentro do arquivo `ba
     ],
 }
 ```
-## Requisitos:
+## Algumas Infos Iniciais:
 
 -   A API segue o padrão REST
 -   O código está organizado, delimitando as responsabilidades de cada arquivo adequadamente.
-    -   Um arquivo index.js
-    -   Um arquivo de rotas
-    -   Uma pasta com controladores
-    -   Uma pasta com intermediários
 -   Qualquer valor (dinheiro) é representado em centavos (Ex.: R$ 10,00 reais = 1000)
 
 ## Status Code
